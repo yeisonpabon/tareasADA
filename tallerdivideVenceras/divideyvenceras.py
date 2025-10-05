@@ -1,4 +1,5 @@
 #divide y venceras 
+#ejercico 2
 import os
 import pandas as pd 
 #cargar datos del excel 
@@ -52,4 +53,5 @@ productos_ordenados = marge_sort(productos)
 print ('productos ordenados... los mejores 10 son:')
 for producto in productos_ordenados[:10]:
     print(f'nombre: {producto['nombre']}, calificacion: {producto['calificacion']}, precio: ${producto['precio']}')
+
 
